@@ -116,5 +116,6 @@ df["Return_Risk"] = df["Predicted_Return_Prob"].apply(risk_level)
 # =====================
 # 11. Save predictions
 # =====================
-df.to_csv("Return_Predictions_PowerBI03.csv", index=False)
+df.to_csv("Analyzed_Data.csv", index=False)
 print("✅ File saved with predictions + risk levels for Power BI.")
+
